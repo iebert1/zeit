@@ -13,7 +13,7 @@ body{
 
 }
 .page_content{
-  width: 960px;
+  width: 978px;
   min-width: 300px;
   margin: 0px;
   z-index: 0;
@@ -256,38 +256,141 @@ h2 a{
 }
 .kommentare:after{
   border-bottom: solid 1px white;
-
+}
+.main{
+  width: 980px;
 }
 .duo{
-  width: 960px;
-  height: 1900px;
+  height: 2200px;
   margin: 20px 0;
-  padding: 0 10px;
-  background-color: coral;
   display: flex;
   flex-direction: row;
 }
 .major{
-  background-color: lightcoral;
+  background-color: white;
   width: 620px;
   padding: 0 10px;
 }
 .minor{
-  background-color: aqua;
-  width: 300px;
+  width: 320px;
   padding: 0 10px;
 }
 .teaser-small{
-  background-color: white;
+  display: flex;
+  flex-direction: row;
   width: 620px;
   padding: 20px 0;
+  margin: 0px;
 }
+
+/*IMAGE*/
 .teaser-small-media{
   display: flex;
-  height: 191px;
+  margin: 0px;
+  padding-right: 20px;
+  padding-left: 10px;
 }
-.teaser-small-img{
+.teaser-small-img-1{
+  width: 250px;
+  height: 141px;
+  background: url('http://img.zeit.de/politik/2016-10/calais-jungle-fluechtlinge-raeumung/wide__250x141__desktop');
+  background-size: contain;
+}
+.teaser-small-img-2{
   width: 250px;
   height: 141px;
   background: url('http://img.zeit.de/politik/deutschland/2016-10/norbert-lammert-bundestag-kandidatur/wide');
+  background-size: contain;
+}
+.teaser-small-img-3{
+  width: 250px;
+  height: 141px;
+  background: url('http://img.zeit.de/politik/2016-10/angela-merkel-russland-ukraine-gipfel/wide__250x141__desktop');
+  background-size: contain;
+}
+.teaser-small-img-4{
+  width: 250px;
+  height: 141px;
+  background: url('http://img.zeit.de/wissen/2016-10/wolfgang-gehrcke-die-linke-kommunismus/wide__250x141__desktop');
+  background-size: contain;
+}
+.teaser-small-img-5{
+  width: 250px;
+  height: 141px;
+  background: url('http://img.zeit.de/entdecken/reisen/merian/bilder/glasgow-schottland-kran/wide__250x141__desktop');
+  background-size: contain;
+}
+.teaser-big-img-1{
+  width: 620px;
+  height: 349px;
+  background: url('http://img.zeit.de/digital/mobil/2016-10/google-pixel-test-assistant-kamera-bild4/wide__620x349__desktop');
+  background-size: contain;
+  margin: 0px;
+}
+.teaser-big-img-2{
+  width: 620px;
+  height: 349px;
+  background: url('http://img.zeit.de/kultur/kunst/2016-10/fs-jimmy-nelson-teaser/wide__250x141__desktop');
+  background-size: contain;
+  margin: 0px;
+}
+
+
+/*small container*/
+.teaser-small-container{
+  height: 191px;
+  margin: 0;
+}
+.t-s-c-h-link{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-decoration: none;
+}
+.t-s-c-h-small-title{
+  font-size: 13px;
+  color: red;
+  font-weight: bold;
+}
+.t-s-c-h-big-title{
+  color: black;
+  font-size: 20px;
+}
+.t-s-c-text{
+  font-size: 15px;
+  line-height: 21px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 12px;
+}
+.t-s-c-meta{
+  font-size: 13px;
+  color: gray;
+  letter-spacing: 0.4px;
+}
+.kommentare{
+  color: grey;
+}
+.timeupdate::after{
+  content: "/";
+  margin-left: 5px;
+}
+
+/*big container*/
+.teaser-big{
+  width: 620px;
+  margin-left: 10px;
+  padding: 20px 0;
+}
+.t-b-c-header{
+  margin-bottom: 14px;
+}
+.t-b-c-h-big-title{
+  font-size: 28px;
+  color: rgb(49, 49, 49);
+}
+.t-b-c-text{
+  font-size: 15px;
+  line-height: 21px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 12px;
 }
